@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>usando forms</title>
+
+</head>
+
+<body>
+    
+    <h2>Exemplo de formulário</h2>
+
+    <form action="">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <br>
+        <label for="senha">Senha:</label> 
+        <input type="password" id="senha" name="senha">
+        <br>
+        <label for="dtNascimento">Data de Nascimento</label>
+        <input type="date" id="dtNascimento">
+        <br>
+        <label for="">Escolaridade</label>
+        <input type="checkbox" name="escolaridade" value="ensino medio">Ensino Médio
+        <input type="checkbox" name="escolaridade" value="superior">Superior
+        <br>
+        <label for="genero">Gênero</label>
+        <input type="radio" name="gênero" value="F">Feminino
+        <input type="radio" name="gênero" value="M">Masculino
+        <input type="radio" name="gênero" value="NB">Não-Binário
+        <br>
+        <label for="">Comida Favorita</label>
+        <select name="comida" id="comida">
+            <option value="Salgado">Salgado</option>
+            <option value="Doce">Doce</option>
+        </select>
+
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>

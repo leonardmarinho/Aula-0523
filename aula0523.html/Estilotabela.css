@@ -1,0 +1,19 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#tb01 td,
+#tb01 table{
+    border: solid black 2px;
+    font-size: 100px;
+}
+
+#tb02 td{background-color: rgb(204, 204, 204);
+    text-align: center;
+}
+
+#tb02 th{
+    border: solid rgb(228, 140, 26) 2px;
+    font-size: 30px;
+    background-color: rgb(228, 140, 26);
+    color: aliceblue;
+}
